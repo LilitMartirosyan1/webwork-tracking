@@ -1,0 +1,72 @@
+@import "src/assets/styles/_variables.scss";
+
+.features {
+  height: 1370px;
+  background-size: contain;
+  .features-wrapper {
+    height: inherit;
+    padding: 30px 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    .features-container {
+      width: 85%;
+      margin:0 auto;
+      text-align: center;
+
+      h2{
+        font-size: 29px;
+        color: $heading-color;
+        font-weight: 500;
+        letter-spacing: 2px;
+        margin-bottom: 30px;
+      }
+      p{
+        font-size: 26px;
+        margin-bottom: 70px;
+        color:$heading-color;
+        letter-spacing: .6px;
+      }
+      .boxes-container{
+        width: 100%;
+        margin: 0 auto;
+        img{
+          width: 90px;
+          height: 90px;
+          padding: 15px 0;
+        }
+        h3{
+          font-size: 22px;
+          margin: 14px 0;
+          text-transform: uppercase;
+          font-weight: normal;
+          letter-spacing: 0.6px;
+        }
+        p{
+          font-size: 15px;
+          color: #75788a;
+          line-height: 25.5px;
+        }
+        .features-box{
+          width: 223px;
+          height: 265px;
+          padding: 15px;
+          margin-top: 25px;
+          margin-left: 25px;
+          background: whitesmoke;
+          border-radius: 10px;
+          border: 1px solid lightgray;
+          float: left;
+        }
+      }
+      button{
+        margin-top: 60px;
+        padding: 14px;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 18px;
+        background: $main-color;
+        border: transparent;
+        border-radius: 5px;
+      }
+    }
+  }
+}

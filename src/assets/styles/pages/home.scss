@@ -1,0 +1,53 @@
+@import "src/assets/styles/_variables.scss";
+
+.home {
+  height: 400px;
+  padding: 30px 0;
+  background: #eee;
+  background-size: cover;
+
+  .home-container {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+    .home-tracker {
+      img {
+        width: 360px;
+        height: 290px;
+        border-radius: 12px;
+      }
+    }
+
+    .home-txt {
+      width: 47%;
+
+      h1 {
+        text-align: right;
+        color: $text-color;
+        margin-top: 0;
+        font-weight: 100;
+      }
+
+      p {
+        text-align: justify;
+        color: rgba(64, 73, 86, 0.7);
+        line-height: 1.6;
+      }
+
+      button {
+        margin-top: 20px;
+        color: white;
+        padding: 15px;
+        cursor: pointer;
+        background-image: linear-gradient(to right, $secondary-color, $main-color);
+        border: transparent;
+        border-radius: 10px;
+        font-size: 19px;
+        text-transform: uppercase;
+
+      }
+    }
+  }
+}

@@ -1,0 +1,90 @@
+@import "src/assets/styles/_variables.scss";
+
+.timeTracking {
+  height: 600px;
+  background: #E8F2F7;
+  padding: 30px 0;
+
+  h2 {
+    text-align: center;
+    margin-bottom: 57px;
+    font-size: 29px;
+    font-weight: 500;
+    letter-spacing: .6px;
+    color: $heading-color;
+  }
+
+  .timeTracking-container {
+    width: 83%;
+    position: relative;
+    margin: 0 auto;
+
+    .timeTracking-image {
+      position: absolute;
+
+      img {
+        position: absolute;
+      }
+
+      .img-gif {
+        z-index: 3;
+        width: 200px;
+        height: 282px;
+        top: 110px;
+        left: -20px;
+      }
+
+      .img-employee {
+        z-index: 1;
+        width: 500px;
+        height: 360px;
+        left: 100px;
+
+      }
+    }
+  }
+
+  .timeTracking-text {
+    position: absolute;
+    width: 420px;
+    right: 0;
+    text-align: right;
+
+    h4 {
+      font-size: 23px;
+      font-weight: 500;
+      letter-spacing: .6px;
+      color: $heading-color;
+      margin-top: 0;
+    }
+
+    p {
+      font-size: 16px;
+      text-align: justify;
+      line-height: 1.65;
+      letter-spacing: 0.5px;
+      color: rgba(64, 73, 86, 0.7);
+    }
+  }
+
+  button {
+    position: absolute;
+    z-index: 3;
+    right: 0;
+    top: 384px;
+    font-size: 16px;
+    color: #0282A5;
+    cursor: pointer;
+    background-color: transparent;
+    padding: 12px 20px;
+    border-radius: 8px;
+    border: 2px solid #0282A5;
+
+    &:hover {
+      color: #fff;
+      text-decoration: none;
+      background-color: #0282A5;
+      border-color: #0282A5;
+    }
+  }
+}
